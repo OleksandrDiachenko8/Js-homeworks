@@ -1,0 +1,31 @@
+main  {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.сlock-container {
+    align-self: center;
+    font-size: 50px;
+}
+
+#buttons-container{
+    align-self: center;
+    padding-top: 20px;
+}
+
+#notifications-container {
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    padding-right: 10px;
+}
+
+/* хрестик для закриття повідомлень */
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 10px;
+    cursor: pointer;
+}
